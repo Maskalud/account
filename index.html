@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <a href="">Обзор</a>
+        <a href="">Виды ∨</a>
+        <a href="">Возможности</a>
+    </div>
+    <div class="content1">
+    <div class="content">
+        <form action="send.php" method="POST">
+            <h2>Ответьте на ваши вопросы</h2>
+            <h3>Название вакансии</h3>
+            <div class="str0 form1">
+                <label>
+                        <input type="checkbox" name="languages[]" value="Менеджер">
+                        Менеджер по работе с клиентами
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="checkbox" name="languages[]" value="Разработчик">
+                        Разработчик
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="checkbox" name="languages[]" value="SMM">
+                        SMM
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="checkbox" name="languages[]" value="Сис.админ">
+                        Сис.админ
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="checkbox" name="languages[]" value="Копирайтер">
+                        Копирайтер
+                    </label>
+                    <br><br>
+                </div>
+              <h2>Личные данные</h2>
+              <div class="str1">
+                    <div class="str11">    
+                        <h3>Фамилия</h3>
+                        <input type="text" name="secondname" placeholder="Введите фамилию">
+                    </div> 
+                    <div class="str12"> 
+                        <h3>Имя</h3>
+                        <input type="text" name="name" placeholder="Введите имя">
+                    </div> 
+                    <div class="str11"> 
+                        <h3>Отчество</h3>
+                        <input type="text" name="thirdname" placeholder="Введмте отчество">
+                    </div> 
+                </div>
+                <div class="str2">
+                    <div class="str22">        
+                        <h3>Телефон</h3>
+                        <input type="tel" name="phone" placeholder="Введите телефон">
+                    </div>
+                    <div class="str23">
+                        <h3>E-mail</h3>
+                        <input type="email" name="email" placeholder="Введите e-mail">
+                    </div>
+                </div>
+                <div class="str3">
+                    <h3>Фото</h3>
+                    <input type="file">
+                </div>
+                <label>
+                    <input type="checkbox" name="approlal" value="copirater">
+                    Я согласен на <a  class="checkbox" href="">обработку персональных данных</a>
+                </label><br>
+                <input type="submit" name='submit'class="btn" >
+            </form>
+    </div>
+    </div>
+</body>
+</html>
